@@ -1,0 +1,5 @@
+2025-11-13T03:29:49.343303200Z ALERT: SQL Injection detected in app_web.log -> 2025-11-13T02:52:02.226221300Z GET /search?q=' OR '1'='1 HTTP/1.1
+2025-11-13T03:29:49.367353Z ALERT: SSH Brute Force detected in auth.log -> 2025-11-13T02:51:58.649232200Z sshd: Failed password for user from 203.0.113.40 port 3657 ssh2
+2025-11-13T03:29:49.375863800Z ALERT: Data Exfiltration detected in data_leak.log -> 2025-11-13T02:51:53.110719600Z EXPORT_COMPLETED file=customers_2025-10-31.csv rows=1246 dest=ftp://malicious.example
+2025-11-13T03:29:49.385369Z ALERT: Phishing Email detected in mail.log -> 2025-11-13T02:51:52.209330100Z PHISH_EMAIL to=ana@conphia.local subj='Urgent: Verify your account' from=spoofed@bank.example
+2025-11-13T03:29:49.394882100Z ALERT: Ransomware (file encryption) detected in ransom.log -> 2025-11-13T02:51:51.866989300Z FILE_ENCRYPTED path=/home/user/docs/invoice.xls action=changed ext=.crypt
